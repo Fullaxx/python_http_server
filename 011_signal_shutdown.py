@@ -3,7 +3,7 @@
 import time
 import signal
 import threading
-from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 g_HOST = 'localhost'
 g_PORT = 8000
